@@ -1,0 +1,23 @@
+.flex-container{
+    display: flex;
+    display: -webkit-flex;
+    width: 300px;
+    height: 200px;
+}
+.flex-item{
+    background-color: brown;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+
+
+img{
+    float: right;
+}
+p{
+    font-family: 'Redressed', cursive;
+    
+    font-weight: 700;
+}

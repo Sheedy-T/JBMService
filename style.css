@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins sans-serif;
+    align-self: stretch;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: rgba(137, 43, 226, 0.842);
+    line-height: 75px;
+    padding: 0px ;
+    position: relative;
+    top: -98px;
+    
+    
+    
+}
+.logo{
+    float: left;
+}
+.logo{
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: red;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+ a{
+     line-height: 46px;
+     color: black;
+     padding: 0px 20px;
+     text-decoration: none;
+     display: inline-block;
+ }
+   
+
+
+
+ .checkbtn{
+     color: black;
+     font-size: 25px;
+     cursor: pointer;
+     float: right;
+     display: none;
+ }
+ #check{
+     display: none;
+ }
+ body {
+    animation: changeBg 9s step-end infinite;
+    background-position: top ;
+    background-size: cover;
+    margin-block-start: 100px;    
+    
+ }
+
+ @keyframes changeBg{
+    0%{
+        background-image: url(check.jpeg); background-repeat: no-repeat; 
+    }
+    50%{
+        background-image: url(check2.jpg); background-repeat: no-repeat;   
+    }
+    80%{
+        background-image: url(check3.jpeg); background-repeat: no-repeat;   
+    }
+    100%{
+        background-image: url(check.jpeg); background-repeat: no-repeat;  
+    }
+    
+  }
+ @media screen and (max-width:990px){
+     nav{
+         padding: 0px 10px;
+     }
+  .checkbtn{
+      display: block;
+  }
+  .logo{
+      font-size: 30px;
+  } 
+  nav ul{
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(137, 43, 226, 0.842) ;
+      position: fixed;
+      top: 75px;
+      left: -50%;
+      text-align: center;
+      transition: 0.4s ease;
+      height: 1000px;
+  } 
+  nav ul li{
+      display: block;
+      margin: 60px 0px;
+      line-height: 20px;
+  }
+  #check:checked ~ ul{
+      left: 0;
+  }
+  .background{
+      background-size: 100px;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: calc(100vh -75px);
+      
+  }
+   
+}
+   
+  body {
+     animation: changeBg 9s step-end infinite;
+     background-position: top ;
+     background-size: cover;
+     margin-block-start: 100px;    
+     
+  }
+ 
+ /*
+ .overlay{
+     position:fixed ;
+     width: 100%;
+     height: 196%;
+     background-color: rgba(0, 0, 0, 0.055);
+     z-index: 1;
+     margin-top: 78px;
+ }
+*/
+
+   @keyframes changeBg{
+     0%{
+         background-image: url(check.jpeg); background-repeat: no-repeat; 
+     }
+     50%{
+         background-image: url(check2.jpg); background-repeat: no-repeat;   
+     }
+     80%{
+         background-image: url(check3.jpeg); background-repeat: no-repeat;   
+     }
+     100%{
+         background-image: url(check.jpeg); background-repeat: no-repeat;  
+     }
+     
+   }
+
+   .box{
+    position: relative;
+    top: 920px;
+     left: 100px;
+     background-color:whitesmoke ;
+     border-radius: 24px;
+
+}
+.gat{
+    width: 369px;
+    height: 319px;
+    position: relative;
+    bottom: -1250px;
+    left: -230px;
+    border-color: black;
+    background-image: url(gadget.jpg) ;
+    
+    
+  }
+.box2{
+    position: relative;
+    top: 920px;
+    right: 90px;
+    background-color: whitesmoke;
+    border-radius: 24px;
+}
+
+.gat2{
+ width: 369px;
+ height: 319px;
+ position: relative;
+ bottom: -1250px;
+ left: -390px;
+ border-color: black;
+ background-image: url(skill.jpg) ;
+ padding-top: 15px;
+ padding-bottom: 5px; 
+}     
+.box3{
+ position: relative;
+ top: 595px;
+ left: 1000px;
+ background-color: whitesmoke;
+ border-radius: 24px;
+}
+.gat3{
+ width: 369px;
+ height: 319px;
+ position: relative;
+ bottom: 460;
+ top: 920px;
+ right: -685px;
+ border-color: black;
+ background-image: url(skill2.webp) ;
+    
+}
+body{
+    
+        width: 100%;
+        height:80px;
+        display: inherit;
+        position: absolute;
+          
+
+        
+    }
+.event{
+    position: relative;
+    top: 950px;
+    padding-left: 55px;
+    text-transform:uppercase ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.event2{
+    position: relative;
+    top: 750px;
+    padding-left: 37%;
+    text-transform:uppercase ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px; 
+}
+
+.event3{
+    position: relative;
+    top: 550px;
+    padding-left: 70%;
+    text-transform:uppercase ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px; 
+}
+
+
+section{
+    width: 100%;
+    height: 250px;
+    background-color: #484872;
+    position: relative;
+    bottom: -680px;
+
+}
+section p{
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.726);
+
+}
+section  i{
+    width: 50px;
+    height: 50px;
+    font-size: 100px;
+    padding-left: 140px;
+    padding-top: 30px;
+     color:rgba(0, 0, 0, 0.733);
+}
+div{
+    position: relative;
+    bottom: -700px;
+}
+   
+
+footer{
+     
+      background-color:black;
+      width: 100%;
+      height: 320px;
+      position: relative;
+      bottom: -700px;
+
+    
+ }
+ .cap{
+     color:aliceblue;
+     text-transform: uppercase;
+     padding-left: 60px;
+     position: relative;
+     top: 40px;
+     font-size: 25px;
+
+     
+ }
+ 
+  .cap1{
+     color: aliceblue;
+     text-transform: uppercase;
+     position: relative;
+     top: 60px;
+     left:40px ;
+    }
+  .cap2{
+    color: aliceblue;
+    text-transform: uppercase;
+    position: relative;
+    top: 50px; 
+    left: 40px;
+    
+  }
+  .cac{
+      color:aliceblue;
+      text-transform: uppercase;
+      font-size: 25px;
+      position: relative;
+      top: -98px;
+      left: 370px;
+
+  }
+  .sas{
+    color:aliceblue;
+    text-transform: uppercase;
+    font-size: 25px; 
+    position: relative; 
+    top:-125px ;
+    left: 680px;
+  }
+  .tap{
+    color:aliceblue;
+    text-transform: uppercase;
+    font-size: 25px; 
+    position: relative; 
+    top:-280px ;
+    left: 1050px;  
+  }
+footer i{
+    color: beige;
+    font-size: 50px;
+    position: relative;
+    left: 640px;
+    top: -80px;
+    padding: -150px;
+    
+    
+}
+.tap2{
+      position: relative;
+      left:1050px;
+      color: aliceblue;
+      top: -260px;
+      font-size: 20px;
+     
+}
+.tap3{
+    background-color: blue;
+    border-radius: 25px;
+    position: relative;
+    top: 8px;
+}
+ strong{
+     font-size: 15px;
+ }
+    
+    

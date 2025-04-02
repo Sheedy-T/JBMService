@@ -1,0 +1,29 @@
+  
+  body {
+    animation: changeBg 9s step-end infinite;
+    background-position: top ;
+    background-size: cover;
+    margin-block-start: 100px;    
+    
+ }
+ 
+ @keyframes changeBg{
+    0%{
+        background-image: url(check.jpg); background-repeat: no-repeat; 
+    }
+    50%{
+        background-image: url(check2.jpg); background-repeat: no-repeat;   
+    }
+    80%{
+        background-image: url(check3.jpg); background-repeat: no-repeat;   
+    }
+    100%{
+        background-image: url(); background-repeat: no-repeat;  
+    }
+    
+  }
+  .sap{
+display: block;
+  }
+
+  
