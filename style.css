@@ -69,16 +69,16 @@ nav ul li{
 
  @keyframes changeBg{
     0%{
-        background-image: url(check.jpeg); background-repeat: no-repeat; 
+        background-image: url(chelsea/check.jpeg); background-repeat: no-repeat; 
     }
     50%{
-        background-image: url(check2.jpg); background-repeat: no-repeat;   
+        background-image: url(chelsea/check2.jpg); background-repeat: no-repeat;   
     }
     80%{
-        background-image: url(check3.jpeg); background-repeat: no-repeat;   
+        background-image: url(chelsea/check3.jpeg); background-repeat: no-repeat;   
     }
     100%{
-        background-image: url(check.jpeg); background-repeat: no-repeat;  
+        background-image: url(chelsea/check.jpeg); background-repeat: no-repeat;  
     }
     
   }
@@ -142,16 +142,16 @@ nav ul li{
 
    @keyframes changeBg{
      0%{
-         background-image: url(check.jpeg); background-repeat: no-repeat; 
+         background-image: url(shedrack/check.jpg); background-repeat: no-repeat; 
      }
      50%{
-         background-image: url(check2.jpg); background-repeat: no-repeat;   
+         background-image: url(shedrack/check2.jpg); background-repeat: no-repeat;   
      }
      80%{
-         background-image: url(check3.jpeg); background-repeat: no-repeat;   
+         background-image: url(shedrack/check3.jpg); background-repeat: no-repeat;   
      }
      100%{
-         background-image: url(check.jpeg); background-repeat: no-repeat;  
+         background-image: url(shedrack/check.jpg); background-repeat: no-repeat;  
      }
      
    }
@@ -187,8 +187,8 @@ nav ul li{
  width: 369px;
  height: 319px;
  position: relative;
- bottom: -1250px;
- left: -390px;
+ bottom: -930px;
+ left: 450px;
  border-color: black;
  background-image: url(skill.jpg) ;
  padding-top: 15px;
@@ -197,7 +197,7 @@ nav ul li{
 .box3{
  position: relative;
  top: 595px;
- left: 1000px;
+ left: 500px;
  background-color: whitesmoke;
  border-radius: 24px;
 }
@@ -207,7 +207,7 @@ nav ul li{
  position: relative;
  bottom: 460;
  top: 920px;
- right: -685px;
+ right: -220px;
  border-color: black;
  background-image: url(skill2.webp) ;
     
