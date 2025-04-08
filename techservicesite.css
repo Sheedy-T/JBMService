@@ -1,0 +1,34 @@
+.events {
+text-align: center;
+    padding: 30px; 
+    font-size: 18px;
+display: flex; 
+  gap: 20px;
+  padding-top: 500px;
+
+  }
+  .events p{
+background: #ddd;
+padding: 30px;
+border-radius: 10px;
+width: 60%;
+flex: 1;
+margin: 0;
+text-align: center;
+  }  
+/*.events {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.events div {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.events p {
+  margin: 0;
+}*/

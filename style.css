@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: poppins sans-serif;
     align-self: stretch;
+    
 }
 
 
@@ -66,305 +67,399 @@ nav ul li{
     margin-block-start: 100px;    
     
  }
-
  @keyframes changeBg{
     0%{
-        background-image: url(chelsea/check.jpeg); background-repeat: no-repeat; 
+        background-image: url(shedrack/check.jpg); background-repeat: no-repeat; 
     }
     50%{
-        background-image: url(chelsea/check2.jpg); background-repeat: no-repeat;   
+        background-image: url(shedrack/check2.jpg); background-repeat: no-repeat;   
     }
     80%{
-        background-image: url(chelsea/check3.jpeg); background-repeat: no-repeat;   
+        background-image: url(shedrack/check3.jpg); background-repeat: no-repeat;   
     }
     100%{
-        background-image: url(chelsea/check.jpeg); background-repeat: no-repeat;  
+        background-image: url(shedrack/check.jpg); background-repeat: no-repeat;  
     }
     
   }
- @media screen and (max-width:990px){
-     nav{
-         padding: 0px 10px;
-     }
-  .checkbtn{
-      display: block;
-  }
-  .logo{
-      font-size: 30px;
-  } 
-  nav ul{
-      width: 100%;
-      height: 100vh;
-      background-color: rgba(137, 43, 226, 0.842) ;
-      position: fixed;
-      top: 75px;
-      left: -50%;
-      text-align: center;
-      transition: 0.4s ease;
-      height: 1000px;
-  } 
-  nav ul li{
-      display: block;
-      margin: 60px 0px;
-      line-height: 20px;
-  }
-  #check:checked ~ ul{
-      left: 0;
-  }
-  .background{
-      background-size: 100px;
-      background-position: left;
-      background-repeat: no-repeat;
-      height: calc(100vh -75px);
-      
-  }
-   
-}
-   
-  body {
-     animation: changeBg 9s step-end infinite;
-     background-position: top ;
-     background-size: cover;
-     margin-block-start: 100px;    
-     
-  }
- 
- /*
- .overlay{
-     position:fixed ;
-     width: 100%;
-     height: 196%;
-     background-color: rgba(0, 0, 0, 0.055);
-     z-index: 1;
-     margin-top: 78px;
- }
-*/
-
-   @keyframes changeBg{
-     0%{
-         background-image: url(shedrack/check.jpg); background-repeat: no-repeat; 
-     }
-     50%{
-         background-image: url(shedrack/check2.jpg); background-repeat: no-repeat;   
-     }
-     80%{
-         background-image: url(shedrack/check3.jpg); background-repeat: no-repeat;   
-     }
-     100%{
-         background-image: url(shedrack/check.jpg); background-repeat: no-repeat;  
-     }
-     
-   }
-
-   .box{
-    position: relative;
-    top: 920px;
-     left: 100px;
-     background-color:whitesmoke ;
-     border-radius: 24px;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    width: 102%;
+    padding: 40px;
+    padding-top:1400px ;
 
 }
-.gat{
-    width: 369px;
-    height: 319px;
-    position: relative;
-    bottom: -1250px;
-    left: -230px;
-    border-color: black;
-    background-image: url(gadget.jpg) ;
-    
-    
-  }
-.box2{
-    position: relative;
-    top: 920px;
-    right: 90px;
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: whitesmoke;
     border-radius: 24px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    
 }
 
-.gat2{
- width: 369px;
- height: 319px;
- position: relative;
- bottom: -930px;
- left: 450px;
- border-color: black;
- background-image: url(skill.jpg) ;
- padding-top: 15px;
- padding-bottom: 5px; 
-}     
-.box3{
- position: relative;
- top: 595px;
- left: 500px;
- background-color: whitesmoke;
- border-radius: 24px;
+.item h1 {
+    margin: 10px 0;
+    font-size: 20px;
 }
-.gat3{
- width: 369px;
- height: 319px;
- position: relative;
- bottom: 460;
- top: 920px;
- right: -220px;
- border-color: black;
- background-image: url(skill2.webp) ;
-    
+
+.item img {
+    width: 100%;
+    height: 230px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 body{
-    
         width: 100%;
         height:80px;
         display: inherit;
-        position: absolute;
-          
+    
+              }
 
-        
-    }
-.event{
-    position: relative;
-    top: 950px;
-    padding-left: 55px;
-    text-transform:uppercase ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-}
-.event2{
-    position: relative;
-    top: 750px;
-    padding-left: 37%;
-    text-transform:uppercase ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px; 
-}
-
-.event3{
-    position: relative;
-    top: 550px;
-    padding-left: 70%;
-    text-transform:uppercase ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px; 
-}
+          .events {
+            text-align: center;
+            justify-content: center;
+                padding: 20px ; 
+            display: flex; 
+              gap: 20px;
+              padding-top: 20px;
+              height: 200px;
+              width: 100%;
+            }
+            
+            .events p{
+           background: #ddd;
+           font-size: 30px;
+           padding: 10px;
+            border-radius: 10px;
+            flex: 1;
+            line-height: 1.2;
+            margin: 0;
+        }  
+   
 
 
-section{
+
+.star{
     width: 100%;
-    height: 250px;
+    height: 200px;
     background-color: #484872;
-    position: relative;
-    bottom: -680px;
+    padding-top:10px;
+    margin-top: 60px;
 
 }
-section p{
+.star span{
     text-transform: uppercase;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     color: rgba(0, 0, 0, 0.726);
+    margin-bottom: 20px;
+    
+}
 
+.star .icons {
+    font-size:80px;
+    color:rgba(0, 0, 0, 0.733);
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 2.3;
+    display: flex;
+    gap: 60px;
+    margin-top: 9px;
+    }
+    
+    .map{
+padding-top: 90px;
+    
 }
-section  i{
-    width: 50px;
-    height: 50px;
-    font-size: 100px;
-    padding-left: 140px;
-    padding-top: 30px;
-     color:rgba(0, 0, 0, 0.733);
-}
-div{
-    position: relative;
-    bottom: -700px;
-}
-   
 
-footer{
-     
-      background-color:black;
+  footer{
+     background-color:#0000008a;
       width: 100%;
       height: 320px;
-      position: relative;
-      bottom: -700px;
-
-    
+      display: flex;
+      gap: 50px;
+      justify-content: center;
+      align-items: center;
+      
+}
+footer div h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 18px;
+    margin-left: 30px;
+    margin-bottom: 8px;
  }
- .cap{
-     color:aliceblue;
-     text-transform: uppercase;
-     padding-left: 60px;
-     position: relative;
-     top: 40px;
-     font-size: 25px;
-
-     
- }
+ footer div a{
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    padding: 0px;
+    margin-left: 20px;
+    margin-bottom:10px ;
+    text-align: center;
+}
+footer div p{
+    font-size: 20px;
+    line-height: 1.2;
+   }  
  
-  .cap1{
-     color: aliceblue;
-     text-transform: uppercase;
-     position: relative;
-     top: 60px;
-     left:40px ;
-    }
-  .cap2{
-    color: aliceblue;
-    text-transform: uppercase;
-    position: relative;
-    top: 50px; 
-    left: 40px;
-    
+   button {
+    background-color: rgba(0, 51, 128, 0.855);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
   }
-  .cac{
-      color:aliceblue;
-      text-transform: uppercase;
-      font-size: 25px;
-      position: relative;
-      top: -98px;
-      left: 370px;
+  
+  button:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  
+  
+  
+ 
+   .tap3{
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 10px;
+     font-size: 2px;
+    flex-direction: column;
+}
+ 
+    
+@media screen and (max-width:800px){
+    nav{
+        padding: 0px 10px;
+       
+    }
+ .checkbtn{
+     display: block;
+ }
+ .logo{
+     font-size: 30px;
+ } 
+ nav ul{
+     width: 100%;
+     height: 100vh;
+     background-color: rgba(137, 43, 226, 0.842) ;
+     position: sticky;
+     top: 75px;
+     left: -50%;
+     text-align: center;
+     transition: 0.4s ease;
+     height: 700px;
+     font-size: 25px;
+ } 
+ nav ul li{
+     display: block;
+     margin: 60px 0px;
+     line-height: 20px;
+ }
+ #check:checked ~ ul{
+     left: 0;
+ }
+ .background{
+     background-size: 100px;
+     background-position: left;
+     background-repeat: no-repeat;
+     height: calc(100vh -75px);
+     
+ }
+  .container{
+    padding-top: 20px;
+    width: 150%;
+    flex-wrap:wrap;
+    gap:60px;
+    justify-content: flex-start;
+    }
+  .items{
+    flex-basis: 100%;
 
   }
-  .sas{
-    color:aliceblue;
-    text-transform: uppercase;
-    font-size: 25px; 
-    position: relative; 
-    top:-125px ;
-    left: 680px;
-  }
-  .tap{
-    color:aliceblue;
-    text-transform: uppercase;
-    font-size: 25px; 
-    position: relative; 
-    top:-280px ;
-    left: 1050px;  
-  }
-footer i{
-    color: beige;
-    font-size: 50px;
-    position: relative;
-    left: 640px;
-    top: -80px;
-    padding: -150px;
-    
+.events{
+    padding: 0px;
+    height: 60vh;
+}
+.star{
+    padding: 10px;
+    height:230px;
     
 }
-.tap2{
-      position: relative;
-      left:1050px;
-      color: aliceblue;
-      top: -260px;
+.star .icons{
+   padding: 0;
+   font-size: 60px;
+   gap: 30px;
+   flex-wrap: wrap;
+   }
+.map{
+    padding-top: 90px;
+    padding: 20px;
+    max-width: 800px;
+}
+  
+footer{
+    display: block;
+    height: 100vh;
+   padding-bottom: 0px;
+   margin-bottom:20px ;    
+}
+    
+footer div h1{
+    font-size: larger;
+    margin-left: 250px;
+    padding-top: 10px;
+    line-height: 1;
+}    
+
+footer div a{
+ font-size: 20px;
+ margin-left:0px;
+display:flow-root;
+
+}
+footer div p{
+    margin-left:20px ;
+    line-height: 1;
+    text-align: center;
+    } 
+}@media screen and (max-width:460px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 38px; 
+        width: 160%;
+       justify-content: center;
+        margin-left: -140px;
+        box-sizing: border-box;
+    }
+      .item h1{
+        font-size: 16px;
+        margin-bottom: 2px;
+      }
+    .item img{
+        width: 120%;
+        height:18vh;
+    }
+    .events {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: -30px;
+  }
+  .events p{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+  .star{
+    margin-top: 15px;
+  }
+  .star span{
+    font-size: 28px;
+  } 
+  footer{
+    height: 600px;
+  }  
+  footer div h1{
+    margin-left: 159px;
+  }
+
+}
+
+
+@media screen and (max-width:300px){
+    nav ul{
+      height: 70vh;
+      line-height: 1;
       font-size: 20px;
-     
+   }
+    nav ul li{
+    margin: 20px;
+    }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    width: 160%;
+   justify-content: center;
+    margin-left: -80px;
+    box-sizing: border-box;
 }
-.tap3{
-    background-color: blue;
-    border-radius: 25px;
-    position: relative;
-    top: 8px;
+  .item h1{
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+.item img{
+    width: 120%;
+    height:18vh;
+    margin-right:flex-start;
+    
 }
- strong{
-     font-size: 15px;
+.events{
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: -30px;
+    
+}
+.events p{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.star{
+    margin-top: 15px;
+    height: 30vh;
+}
+.star span{
+    font-size: 25px;
+}
+.star i{
+    font-size: 39px;
+}
+
+.map iframe{
+ height: 300px;   
+}
+footer {
+    gap: 2px;
+    margin-top: -20px;
+    flex-direction: column;
+    height: 500px;   
+    
+}
+footer div{
+    flex: 1 1 100%;
+}
+footer  div h1{
+  margin-left: 80px;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+footer div a{
+font-size: 15px;    
+  margin-left: -9px;
  }
-    
-    
+footer div p{
+    font-size: 15px;
+    margin-left: -10px;
+}
+}
